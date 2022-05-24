@@ -124,12 +124,6 @@ main{
 .second-section{
     background-color: var(--lilac);
 }
-.container-small{
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 20px;
-    font-family: 'PT Sans', sans-serif;
-}
 
 .container-second-section{
     width: 100%;
@@ -337,6 +331,70 @@ main{
     margin: 20px 0;
 }
 
+/* *************footer********** */
+ /* ------------FOOTER TOP------- */
+    .row-footer-top{
+        width: 100%;
+        background-color: var(--lilac);
+    }
+
+    .container-small{
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+    }
+
+    .box-footer-top > * {
+        padding: 20px 0;
+    }
+
+    #started{
+        font-size: 13px;
+        font-weight: lighter;
+        color: white;
+    }
+
+    #title-footer{
+        color: white;
+    }
+
+    .special{
+        color: #fdc15f;
+        font-size: 50px;
+    }
+
+    #text-footer{
+        font-size: 13px;
+        color: white;
+    }
+
+    .box-footer-top a{
+        text-decoration: none;
+        background-color: white;
+        padding: 10px 60px;
+        color: var(--lilac);
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    #copyright{
+        font-size: 10px;
+        color: white;
+    }
+
+    .row-footer-bottom{
+        width: 100%;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .box-footer-bottom p{
+        color: white;
+        padding: 10px 0;
+        font-size: 13px;
+}
+
  
 /* *******************************************
                 MEDIA QUERY 768
@@ -369,17 +427,13 @@ main{
     }
     .card-third-section .box-image-third-section{
         max-width: 30%;
+        margin: 0px;
     }
     .card-third-section .text-image-third-section{
         max-width: 70%;
+        text-align: left; 
     }
-    .card-third-section .box-image-third-section{
-        margin: 0px;
-    }
-    .card-third-section .text-image-third-section {
-        text-align: left;  
-    }
-
+    
     /* *******quarta sezione****** */
     .container-cards-fourth-section{
         width: 100%;
@@ -395,6 +449,12 @@ main{
 
     .text-right-fifth-section{
         width: 30%;
+    }
+
+    /* **********footer********* */
+
+    .container-small{
+        max-width: 600px;
     }
 }
 
@@ -435,9 +495,6 @@ main{
     }
 
     /* ***********seconda sezione********* */
-    .container-small{
-        max-width: 800px;
-    }
     .container-second-section{
         display: flex;
         justify-content: space-evenly;
